@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We create a string variable called name and assign 'Dane' as it's value.
+// We compare the name variable to the name 'Mary'. If the value of the name variable equals 'Mary' we will console.log 'Hi, Mary'. Since the value of the name variable is not Mary, we will console log 'How do you do?'. 
 // 
 //
 
@@ -45,9 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create the variable secret but do not assign a value. We create a variable code and assign the number 123. 
+
+// We compare the value of code to 123. Since the value of code equals 123 we will assign the word 'super' to the secret variable, multiply the value of code by 2, and console log 'super'.
+
+// If the value of code had been more than 250 we would have assigned the word 'duper' to the secret variable and console log 'duper'. 
 //
 
 //CODE
@@ -70,10 +72,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create the variable isStudent and assign the true boolean value. We create the variable age and assign the number 34. We create a variable zip and assign the number 55407.
+// We use a compound conditional to determine if the value of isStudent equals boolean true and if zip is more than 8000. We meet the first condition but not the second so we move on to the next condition. 
+// The second compound conditioanl asks if isStudent equals false or if age is less than 30. Neither conditions are met so we move on to the next condition.
+//The third condition just wants to know if isStudent equals boolean true. This condition is met and 'Welcome to Prime!' is logged to the console. 
 
 //CODE
 /*
@@ -130,6 +132,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - colorOne is red, but the instructions indicate it is blue. colorTwo is blue, but the instructions indicate the color is red.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -146,7 +149,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+FIX - The code below uses the logical operator OR (||). The instructions indicate the logical AND (&&) should be used.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +163,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+FIX - The code below used the less ghan or equal operator (<=). The instructions indicate the greater than or equal operator (>=) should be used. 
 if(minAge <= age) {
   console.log('no entry');
 } else {
