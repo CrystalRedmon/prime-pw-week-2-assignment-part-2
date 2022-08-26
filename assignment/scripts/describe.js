@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We create a string variable called name and assign 'Dane' as it's value.
-// We compare the name variable to the name 'Mary'. If the value of the name variable equals 'Mary' we will console.log 'Hi, Mary'. Since the value of the name variable is not Mary, we will console log 'How do you do?'. 
+// We compare the name variable to the string 'Mary'. If the value of the name variable equals the string 'Mary' we will console.log 'Hi, Mary'. Since the value of the name variable is not Mary, we will console log 'How do you do?'. 
 // 
 //
 
@@ -47,7 +47,7 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We create the variable secret but do not assign a value. We create a variable code and assign the number 123. 
 
-// We compare the value of code to 123. Since the value of code equals 123 we will assign the word 'super' to the secret variable, multiply the value of code by 2, and console log 'super'.
+// We compare the value of code to the number 123. Since the value of code equals 123 we will assign the word 'super' to the secret variable, multiply the value of code by 2, and console log 'super'.
 
 // If the value of code had been more than 250 we would have assigned the word 'duper' to the secret variable and console log 'duper'. 
 //
@@ -163,7 +163,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-FIX - The code below used the less ghan or equal operator (<=). The instructions indicate the greater than or equal operator (>=) should be used. 
+FIX - The code below used the less than or equal operator (<=) to determine if miniAge is less than or equal to age. The instructions indicate the greater than or equal operator (>=) should be used to determine if age is greater than or equal to minAge. 
 if(minAge <= age) {
   console.log('no entry');
 } else {
